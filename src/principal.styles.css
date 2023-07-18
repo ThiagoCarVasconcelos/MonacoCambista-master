@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body{
+    background-color: #02065B;
+
+}
+
+.header{
+    height: 70px;
+    width:100%;
+    background-color: #F6CE34;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+#logo{
+    height: 70px;
+    width:220px;
+    border-radius:15px;
+    cursor: pointer;
+}
+
+
+
+
+.linha{
+    width:100%;
+    height: 2px;
+    background-color: black;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin: 1px 3em 3em 3em;
+    border: solid 2px black;
+    height: 33em;
+    border-radius:30px;
+    background-color: white;
+    box-shadow: -5px 15px 15px -5px rgba(0, 0, 0, 0.8);
+
+}
+
+.card{
+    width:25em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #DCDCDC;
+    border: solid 4px black;
+    border-radius:50px;
+    box-shadow: -1px 25px 25px -1px rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.text{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.paiText{
+    align-items: center;
+    justify-content: center ;
+    display: flex;
+    height:2.5em;
+    padding:1em
+
+}
+.linhaText{
+    width:30em;
+    height: 1px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:5px;
+    background-color: white;
+}
+
+.form{
+    margin-left: 16%;
+    font-size: 20px;
+    display: grid;
+    row-gap: 5px;
+}
+
+.cabecario1{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+.linhaText1{
+    display: flex;
+    width:10em;
+    height: 5px;
+    margin-left:60px;
+    margin-right:5px;
+    border-radius:5px;
+    background-color: black;
+}
+
+
+.cabecario2{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 420px;
+    font-size: 20px;
+}
+
+
+.linhaText2{
+    background-color: black;
+}
+
+.botao{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    background-color: white;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    transition: 0.8s;
+    background-color: gray;
+}
+
